@@ -1,0 +1,10 @@
+{
+  "item.bow-expansion.copper_bow": "Arco de cobre",
+  "item.bow-expansion.golden_bow": "Arco de oro",
+  "item.bow-expansion.iron_bow": "Arco de hierro",
+  "item.bow-expansion.emerald_bow": "Arco de esmeralda",
+  "item.bow-expansion.obsidian_bow": "Arco de obsidiana",
+  "item.bow-expansion.diamond_bow": "Arco de diamante",
+  "item.bow-expansion.netherite_bow": "Arco de netherita",
+  "bow-expansion.tooltip.added_damage": "+%d Daño"
+}

@@ -1,0 +1,10 @@
+{
+  "item.bow-expansion.copper_bow": "Copper Bow",
+  "item.bow-expansion.golden_bow": "Golden Bow",
+  "item.bow-expansion.iron_bow": "Iron Bow",
+  "item.bow-expansion.emerald_bow": "Emerald Bow",
+  "item.bow-expansion.obsidian_bow": "Obsidian Bow",
+  "item.bow-expansion.diamond_bow": "Diamond Bow",
+  "item.bow-expansion.netherite_bow": "Netherite Bow",
+  "bow-expansion.tooltip.added_damage": "+%d Damage"
+}

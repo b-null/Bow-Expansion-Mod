@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "bow-expansion",
+	"version": "${version}",
+	"name": "Bow expansion",
+	"description": "A mod that adds a few extra bows",
+	"authors": [
+		"b-null"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/b-null/Bow-Expansion-Mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bow-expansion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"vvbj.modding.bowexpansion.BowExpansion"
+		],
+		"client": [
+			"vvbj.modding.bowexpansion.BowExpansionClient"
+		]
+	},
+	"mixins": [
+		"bow-expansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
