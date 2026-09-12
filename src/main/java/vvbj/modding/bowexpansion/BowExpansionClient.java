@@ -19,15 +19,15 @@ public class BowExpansionClient implements ClientModInitializer {
     }
 
     private void registerBowModelPredicate(CustomBowItem bow){
-        ModelPredicateProviderRegistry.register(bow, new Identifier("pull"), ((stack, world, entity, seed) -> {
+        ModelPredicateProviderRegistry.register(bow, Identifier.ofVanilla("pull"), ((stack, world, entity, seed) -> {
             if(entity == null)
                 return 0;
             if(entity.getActiveItem() != stack)
                 return 0;
-            return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / bow.getTps();
+            return (float)(stack.getMaxUseTime(entity) - entity.getItemUseTimeLeft()) / bow.getTps();
         }));
 
-        ModelPredicateProviderRegistry.register(bow, new Identifier("pulling"),
+        ModelPredicateProviderRegistry.register(bow, Identifier.ofVanilla("pulling"),
                 ((stack, world, entity, seed) -> entity != null &&entity.isUsingItem() && entity.getActiveItem() == stack ? 1f : 0));
     }
 }

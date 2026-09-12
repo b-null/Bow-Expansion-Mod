@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:emerald"
     },
     "X": {
       "item": "minecraft:string"
@@ -15,7 +15,7 @@
     " #X"
   ],
   "result": {
-    "item": "bow-expansion:golden_bow"
+    "id": "bow-expansion:emerald_bow"
   },
   "show_notification": true
 }

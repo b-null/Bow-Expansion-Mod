@@ -7,7 +7,7 @@
     "item": "bow-expansion:diamond_bow"
   },
   "result": {
-    "item": "bow-expansion:netherite_bow"
+    "id": "bow-expansion:netherite_bow"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

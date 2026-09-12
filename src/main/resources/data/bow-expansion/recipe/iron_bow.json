@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
       "item": "minecraft:string"
@@ -15,7 +15,7 @@
     " #X"
   ],
   "result": {
-    "item": "bow-expansion:diamond_bow"
+    "id": "bow-expansion:iron_bow"
   },
   "show_notification": true
 }
